@@ -1,16 +1,16 @@
-# The URL the site will be built for
 base_url = "https://fuzz.fail"
-
-# Whether to automatically compile all Sass files in the sass directory
-compile_sass = false
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+compile_sass = true
+build_search_index = false
+generate_feeds = false
+minify_html = true
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
+highlight_theme = "css"
+smart_punctuation = true
 
 [extra]
-# Put all your custom variables here
+favicon = false
+large_card = true
+footer_text = "This website is built using [Zola](https://www.getzola.org) and the [Academic Paper](http://github.com/aterenin/academic-paper/) theme, which is [designed to last](https://jeffhuang.com/designed_to_last/)."
+server_side_katex = true
