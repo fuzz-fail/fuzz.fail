@@ -3,7 +3,9 @@
 A community-assembled project for aggregating public information regarding questions in fuzzing (and search-based testing strategies on its periphery).
 
 -----
-See the call for contributors at the end of this document!
+
+**See the call for contributors at the end of this document!**
+
 -----
 
 ## Why?
